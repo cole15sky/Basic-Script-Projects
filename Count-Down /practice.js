@@ -7,7 +7,7 @@ var initialCountdownVal = countdownElement.innerHTML;
 setInterval (function(){
 initialCountdownVal = initialCountdownVal >0? initialCountdownVal -1: 0;
 countdownElement.innerHTML=initialCountdownVal;
- var backImgpath = initialCountdownVal %2 ===0? 'img/2.png' : 'img/1.png';
+ var backImgpath = initialCountdownVal %2 ===0? '/img/2.png' : '/img/1.png';
  backgroundPath.src =backImgpath;
 
 
