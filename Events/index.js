@@ -3,10 +3,14 @@ var  btn = document.getElementById('click-button');
 
 // we can handel the event properties by two ways.
 
-// through event properties as;
+// i.hrough event properties as;
 
 function onBtnClick() {
     alert("I'm clicked.");
 }
 
-btn.onclick = onBtnClick;
+// btn.onclick = onBtnClick;
+
+// ii. through event listener.
+
+btn.addEventListener('click',onBtnClick);
