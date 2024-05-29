@@ -3,10 +3,7 @@ var  btn = document.getElementById('click-button');
 var mainHeader =document.getElementById('Header');
 
 function onBtnClick() {
- mainHeader.style.backgroundColor='yellow';
-
+  mainHeader.style.backgroundColor=("rgb(" + Math.floor(Math.random()*165) + "," + Math.floor(Math.random()*165) + "," + Math.floor(Math.random()*165) +")");  
 }
 
-
-
-btn.addEventListener('click',onBtnClick);
+btn.addEventListener('click',onBtnClick); 
