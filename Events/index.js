@@ -1,16 +1,12 @@
 
 var  btn = document.getElementById('click-button');
-
-// we can handel the event properties by two ways.
-
-// i.hrough event properties as;
+var mainHeader =document.getElementById('Header');
 
 function onBtnClick() {
-    alert("I'm clicked.");
+ mainHeader.style.backgroundColor='yellow';
+
 }
 
-// btn.onclick = onBtnClick;
 
-// ii. through event listener.
 
 btn.addEventListener('click',onBtnClick);
